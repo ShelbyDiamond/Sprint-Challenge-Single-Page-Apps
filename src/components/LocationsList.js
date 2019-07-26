@@ -16,7 +16,7 @@ export default function LocationsList() {
   }, []);
 
   return (
-    <section>
+    <section className="main grid-view">
       {findLocation.map(location => (
         <LocationCard location={location} />
       ))}

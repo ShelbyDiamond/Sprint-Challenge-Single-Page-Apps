@@ -40,7 +40,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
   > Answer:
 
-- Postman
+- Promise
 - axios
 - fetch
 

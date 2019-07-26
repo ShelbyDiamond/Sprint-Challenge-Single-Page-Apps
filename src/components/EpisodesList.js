@@ -1,5 +1,5 @@
 import React from "react";
 
-export default function LocationsList() {
+export default function EpisodesList() {
   return <div />;
 }

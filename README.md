@@ -25,14 +25,24 @@ In this challenge, you will create a Single Page Application complete with Clien
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
 - [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
-- [ ] What does AJAX stand for?
-> Answer:
-- [ ] What are `controlled components` in React?
-> Answer:
-- [ ] Name three tools/libraries for making AJAX requests.
-> Answer:
 
+  > Answer: Client-Side routing is when the routing is handled internally by the javascript that is already on the page. This is good because the page won't refersh. The data is already there and displays when we ask for it. A benefit for this would be the page loading faster.
+
+- [ ] What does AJAX stand for?
+
+  > Answer: Ajax is short for asynchronous JavaScript and XML
+
+- [ ] What are `controlled components` in React?
+
+  > Answer: An input form element whose value is controlled by React in this way is called a “controlled component”.
+
+- [ ] Name three tools/libraries for making AJAX requests.
+
+  > Answer:
+
+- Postman
+- axios
+- fetch
 
 ## Project Set Up
 
@@ -130,10 +140,8 @@ There's a range of difficulty included. 😈
 - [ ] Add your TL as a Reviewer on the Pull Request.
 - [ ] TL then will count the HW as done by merging the branch into master.
 
-
 ### Backup API URL
 
 If the [main API service](https://rickandmortyapi.com/documentation) goes down, or you exceed rate limits, you can try the following backup URL:
 
 **Backup URL:** https://rick-and-morty-learning-api.herokuapp.com/api/
-

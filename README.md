@@ -24,19 +24,19 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ] Explain benefit(s) using `client-side routing`?
+- [x] Explain benefit(s) using `client-side routing`?
 
   > Answer: Client-Side routing is when the routing is handled internally by the javascript that is already on the page. This is good because the page won't refersh. The data is already there and displays when we ask for it. A benefit for this would be the page loading faster.
 
-- [ ] What does AJAX stand for?
+- [x] What does AJAX stand for?
 
   > Answer: Ajax is short for asynchronous JavaScript and XML
 
-- [ ] What are `controlled components` in React?
+- [x] What are `controlled components` in React?
 
   > Answer: An input form element whose value is controlled by React in this way is called a “controlled component”.
 
-- [ ] Name three tools/libraries for making AJAX requests.
+- [x] Name three tools/libraries for making AJAX requests.
 
   > Answer:
 
@@ -48,15 +48,15 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
-- [ ] Implement the project on this branch, committing changes regularly.
-- [ ] Push commits: `git push origin <firstName-lastName>`.
-- [ ] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
-- [ ] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
-- [ ] **RUN** `yarn start` or `npm start` to fire up your React application.
+- [x] Create a forked copy of this project.
+- [x] Add TL as collaborator on GitHub.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
+- [x] Implement the project on this branch, committing changes regularly.
+- [x] Push commits: `git push origin <firstName-lastName>`.
+- [x] **LOOK** at your project directory and notice it's just a plain ol' React App that we've built using `create-react-app`.
+- [x] **RUN** `yarn install` or `npm install` to retrieve the client-side dependencies.
+- [x] **RUN** `yarn start` or `npm start` to fire up your React application.
 
 [Instructions to completing](#completing)
 
@@ -80,8 +80,8 @@ You can test them individually before adding in the Router (Part 2).
 Create 3 page components to display data from 3 API endpoints:
 
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
-- `https://rickandmortyapi.com/api/locations/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
-- `https://rickandmortyapi.com/api/episodes/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
+- `https://rickandmortyapi.com/api/location/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-location)
+- `https://rickandmortyapi.com/api/episode/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episode)
 
 - [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
 - [ ] Create a component to show a grid of data from the API.

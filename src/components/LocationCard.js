@@ -1,7 +1,18 @@
-import React from 'react'
+import React from "react";
+import styled from "styled-components";
 
-export default function LocationCard ({ name, type, dimension, residents }) {
-  // image={image}
-  return (<span>todo: location</span>
-  )
+const Name = styled.p`
+  font-size: 1.2rem;
+`;
+
+export default function LocationCard(props) {
+  return (
+    <div>
+      <p>
+        <strong>{props.location.name}</strong>
+      </p>
+      <p>{props.location.type}</p>
+      <p>{props.location.dimension}</p>
+    </div>
+  );
 }
